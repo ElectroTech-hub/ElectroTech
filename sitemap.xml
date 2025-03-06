@@ -2,46 +2,129 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     
+    <!-- Main Pages -->
     <url>
-        <loc>https://www.example.com/index.html</loc>
+        <loc>https://electrotech-hub.github.io/ElectroTech/index.html</loc>
         <lastmod>2023-10-15</lastmod>
         <priority>1.00</priority>
     </url>
     
     <url>
-        <loc>https://www.example.com/about.html</loc>
+        <loc>https://electrotech-hub.github.io/ElectroTech/about.html</loc>
+        <lastmod>2023-10-15</lastmod>
+        <priority>0.80</priority>
+        <image:image>
+            <image:loc>https://electrotech-hub.github.io/ElectroTech/images/team/ceo.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://electrotech-hub.github.io/ElectroTech/images/team/cto.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://electrotech-hub.github.io/ElectroTech/images/team/dsc.jpg</image:loc>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://electrotech-hub.github.io/ElectroTech/contact.html</loc>
         <lastmod>2023-10-15</lastmod>
         <priority>0.80</priority>
     </url>
     
     <url>
-        <loc>https://www.example.com/contact.html</loc>
-        <lastmod>2023-10-15</lastmod>
-        <priority>0.80</priority>
-    </url>
-    
-    <url>
-        <loc>https://www.example.com/products.html</loc>
+        <loc>https://electrotech-hub.github.io/ElectroTech/products.html</loc>
         <lastmod>2023-10-15</lastmod>
         <priority>0.85</priority>
     </url>
 
+    <!-- Product Pages -->
     <url>
-        <loc>https://www.example.com/products/arduino-uno.html</loc>
+        <loc>https://electrotech-hub.github.io/ElectroTech/products/arduino-uno.html</loc>
         <lastmod>2023-10-15</lastmod>
         <priority>0.70</priority>
         <image:image>
-            <image:loc>https://www.example.com/images/products/arduino-uno.png</image:loc>
+            <image:loc>https://electrotech-hub.github.io/ElectroTech/images/products/arduino-uno.png</image:loc>
         </image:image>
     </url>
     
     <url>
-        <loc>https://www.example.com/products/raspberry-pi4.html</loc>
+        <loc>https://electrotech-hub.github.io/ElectroTech/products/raspberry-pi4.html</loc>
         <lastmod>2023-10-15</lastmod>
         <priority>0.70</priority>
         <image:image>
-            <image:loc>https://www.example.com/images/products/raspberry-pi4.png</image:loc>
+            <image:loc>https://electrotech-hub.github.io/ElectroTech/images/products/raspberry-pi4.png</image:loc>
         </image:image>
     </url>
     
-   
+    <url>
+        <loc>https://electrotech-hub.github.io/ElectroTech/products/breadboard.html</loc>
+        <lastmod>2023-10-15</lastmod>
+        <priority>0.70</priority>
+        <image:image>
+            <image:loc>https://electrotech-hub.github.io/ElectroTech/images/products/breadboard.png</image:loc>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://electrotech-hub.github.io/ElectroTech/products/esp32.html</loc>
+        <lastmod>2023-10-15</lastmod>
+        <priority>0.70</priority>
+        <image:image>
+            <image:loc>https://electrotech-hub.github.io/ElectroTech/images/products/esp32.png</image:loc>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://electrotech-hub.github.io/ElectroTech/products/jumper-wires.html</loc>
+        <lastmod>2023-10-15</lastmod>
+        <priority>0.70</priority>
+        <image:image>
+            <image:loc>https://electrotech-hub.github.io/ElectroTech/images/products/jumper-wires.png</image:loc>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://electrotech-hub.github.io/ElectroTech/products/led-packs.html</loc>
+        <lastmod>2023-10-15</lastmod>
+        <priority>0.70</priority>
+        <image:image>
+            <image:loc>https://electrotech-hub.github.io/ElectroTech/images/products/led-packs.jpg</image:loc>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://electrotech-hub.github.io/ElectroTech/products/motor-driver.html</loc>
+        <lastmod>2023-10-15</lastmod>
+        <priority>0.70</priority>
+        <image:image>
+            <image:loc>https://electrotech-hub.github.io/ElectroTech/images/products/motor-driver.png</image:loc>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://electrotech-hub.github.io/ElectroTech/products/multimeter.html</loc>
+        <lastmod>2023-10-15</lastmod>
+        <priority>0.70</priority>
+        <image:image>
+            <image:loc>https://electrotech-hub.github.io/ElectroTech/images/products/multimeter.png</image:loc>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://electrotech-hub.github.io/ElectroTech/products/resistor-kit.html</loc>
+        <lastmod>2023-10-15</lastmod>
+        <priority>0.70</priority>
+        <image:image>
+            <image:loc>https://electrotech-hub.github.io/ElectroTech/images/products/resistor-kit.png</image:loc>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://electrotech-hub.github.io/ElectroTech/products/sensor-kit.html</loc>
+        <lastmod>2023-10-15</lastmod>
+        <priority>0.70</priority>
+        <image:image>
+            <image:loc>https://electrotech-hub.github.io/ElectroTech/images/products/sensor-kit.png</image:loc>
+        </image:image>
+    </url>
+    
+</urlset>
